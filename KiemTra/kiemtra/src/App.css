@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+}
+.todo{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+.all{
+    margin-left:550px;
+    margin-top:40px;
+}
+.all-title{
+    border-bottom:3px solid;
+    width: fit-content;
+    border-color:rgb(28, 28, 195);
+}
+.all-input{
+    width: 400px;
+    height:30px;
+    margin-top: 20px;
+    border-radius: 8px;
+    border:1px solid lightgrey;
+    outline: none;
+}
+.all-add{
+    padding:7px 28px;
+    margin-left:20px;
+    border-radius: 8px;
+    border:1px none black;
+    background-color: rgb(28, 28, 195);
+    color:white;
+    cursor:pointer;
+}
+.all-checkbox{
+    margin-top: 20px;
+}
+
+
+.active{
+    margin-left:550px;
+    margin-top:40px;
+}
+.active-title{
+    margin-left:190px;
+    border-bottom:3px solid;
+    width: fit-content;
+    border-color:rgb(28, 28, 195);
+}
+.active-input{
+    width: 400px;
+    height:30px;
+    margin-top: 20px;
+    border-radius: 8px;
+    border:1px solid lightgrey;
+    outline: none;
+}
+.active-add{
+    padding:7px 28px;
+    margin-left:20px;
+    border-radius: 8px;
+    border:1px none black;
+    background-color: rgb(28, 28, 195);
+    color:white;
+    cursor:pointer;
+}
+.active-checkbox{
+    margin-top: 20px;
+}
+
+
+.completed{
+    margin-left:550px;
+    margin-top:40px;
+}
+.completed-title{
+    margin-left:390px;
+    border-bottom:3px solid;
+    width: fit-content;
+    border-color:rgb(28, 28, 195);
+}
+.completed-deleted{
+    margin-top:20px;
+}
+.fa-trash{
+    margin-left:420px;
+    cursor: pointer;
+}
+.completed-delete{
+    margin-left:420px;
+    margin-top:20px;
+    padding:8px 18px;
+    border-radius:5px;
+    border:1px none ;
+    background-color: rgb(222, 0, 0);
+    color:white;
+    cursor: pointer;
+} 
+
+
+.head {
+    display:flex;
+    justify-content: space-around;
+    width:900px;
+    margin-left:350px;
+    margin-top:40px;
+    border-bottom:3px solid black;
+}
